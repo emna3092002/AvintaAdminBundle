@@ -1,7 +1,6 @@
 <?php
 
 namespace EasyCorp\Bundle\EasyAdminBundle\ArgumentResolver;
-
 use EasyCorp\Bundle\EasyAdminBundle\Context\AdminContext;
 use EasyCorp\Bundle\EasyAdminBundle\Contracts\Provider\AdminContextProviderInterface;
 use EasyCorp\Bundle\EasyAdminBundle\Provider\AdminContextProvider;
