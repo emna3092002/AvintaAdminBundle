@@ -1,5 +1,4 @@
 #!/bin/bash
-
 cd ../easyadminbundle
 yarn install
 yarn encore production
