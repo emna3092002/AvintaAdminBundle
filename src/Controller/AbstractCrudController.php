@@ -63,9 +63,7 @@ use Symfony\Component\Security\Core\Exception\AccessDeniedException;
 use Symfony\Component\Security\Core\Exception\InvalidCsrfTokenException;
 use function Symfony\Component\String\u;
 
-/**
- * @author Javier Eguiluz <javier.eguiluz@gmail.com>
- */
+
 abstract class AbstractCrudController extends AbstractController implements CrudControllerInterface
 {
     abstract public static function getEntityFqcn(): string;
