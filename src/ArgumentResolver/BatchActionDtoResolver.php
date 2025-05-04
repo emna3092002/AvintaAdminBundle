@@ -1,7 +1,6 @@
 <?php
 
 namespace EasyCorp\Bundle\EasyAdminBundle\ArgumentResolver;
-
 use EasyCorp\Bundle\EasyAdminBundle\Config\Action;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Option\EA;
 use EasyCorp\Bundle\EasyAdminBundle\Context\AdminContext;
