@@ -12,11 +12,7 @@ use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\String\Slugger\AsciiSlugger;
 use function Symfony\Component\String\u;
 
-/**
- * Generates the PHP class needed to define a Dashboard controller.
- *
- * @author Javier Eguiluz <javier.eguiluz@gmail.com>
- */
+
 #[AsCommand(
     name: 'make:admin:dashboard',
     description: 'Creates a new EasyAdmin Dashboard class',
