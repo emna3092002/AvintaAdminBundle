@@ -6,9 +6,7 @@ use EasyCorp\Bundle\EasyAdminBundle\Dto\ActionDto;
 use function Symfony\Component\String\u;
 use Symfony\Contracts\Translation\TranslatableInterface;
 
-/**
- * @author Javier Eguiluz <javier.eguiluz@gmail.com>
- */
+
 final class Action
 {
     public const BATCH_DELETE = 'batchDelete';
