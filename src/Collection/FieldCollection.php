@@ -15,9 +15,7 @@ final class FieldCollection implements CollectionInterface
     /** @var FieldDto[] */
     private array $fields;
 
-    /**
-     * @param FieldInterface[]|string[] $fields
-     */
+  
     private function __construct(iterable $fields)
     {
         $this->fields = $this->processFields($fields);
