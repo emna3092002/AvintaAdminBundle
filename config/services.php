@@ -1,7 +1,6 @@
 <?php
 
 namespace Symfony\Component\DependencyInjection\Loader\Configurator;
-
 use EasyCorp\Bundle\EasyAdminBundle\ArgumentResolver\AdminContextResolver;
 use EasyCorp\Bundle\EasyAdminBundle\ArgumentResolver\BatchActionDtoResolver;
 use EasyCorp\Bundle\EasyAdminBundle\Asset\AssetPackage;
