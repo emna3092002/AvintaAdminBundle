@@ -10,9 +10,6 @@ use EasyCorp\Bundle\EasyAdminBundle\Dto\FilterDto;
  */
 final class FilterCollection implements CollectionInterface
 {
-    /**
-     * @param FilterDto[] $filters
-     */
     private function __construct(private array $filters)
     {
     }
