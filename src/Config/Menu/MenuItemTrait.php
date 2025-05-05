@@ -5,9 +5,7 @@ namespace EasyCorp\Bundle\EasyAdminBundle\Config\Menu;
 use EasyCorp\Bundle\EasyAdminBundle\Dto\MenuItemDto;
 use Symfony\Component\ExpressionLanguage\Expression;
 
-/**
- * @author Javier Eguiluz <javier.eguiluz@gmail.com>
- */
+
 trait MenuItemTrait
 {
     private MenuItemDto $dto;
