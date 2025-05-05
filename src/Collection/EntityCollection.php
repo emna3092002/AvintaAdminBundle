@@ -10,9 +10,7 @@ use EasyCorp\Bundle\EasyAdminBundle\Dto\EntityDto;
  */
 final class EntityCollection implements CollectionInterface
 {
-    /**
-     * @param EntityDto[] $entities
-     */
+  
     private function __construct(private array $entities)
     {
     }
