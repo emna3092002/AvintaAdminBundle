@@ -9,11 +9,7 @@ use EasyCorp\Bundle\EasyAdminBundle\Dto\MenuItemDto;
 use Symfony\Component\Uid\AbstractUid;
 use Symfony\Contracts\Translation\TranslatableInterface;
 
-/**
- * @see EasyCorp\Bundle\EasyAdminBundle\Config\MenuItem::linkToCrud()
- *
- * @author Javier Eguiluz <javier.eguiluz@gmail.com>
- */
+
 final class CrudMenuItem implements MenuItemInterface
 {
     use MenuItemTrait;
