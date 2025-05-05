@@ -1,7 +1,6 @@
 <?php
 
 namespace EasyCorp\Bundle\EasyAdminBundle\Controller;
-
 use EasyCorp\Bundle\EasyAdminBundle\Config\Action;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Actions;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Assets;
