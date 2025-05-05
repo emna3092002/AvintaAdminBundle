@@ -1,7 +1,6 @@
 <?php
 
 namespace EasyCorp\Bundle\EasyAdminBundle\Asset;
-
 use Symfony\Component\Asset\Context\RequestStackContext;
 use Symfony\Component\Asset\PackageInterface;
 use Symfony\Component\Asset\PathPackage;
