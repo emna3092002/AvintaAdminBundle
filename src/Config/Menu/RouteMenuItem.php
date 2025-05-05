@@ -6,11 +6,7 @@ use EasyCorp\Bundle\EasyAdminBundle\Contracts\Menu\MenuItemInterface;
 use EasyCorp\Bundle\EasyAdminBundle\Dto\MenuItemDto;
 use Symfony\Contracts\Translation\TranslatableInterface;
 
-/**
- * @see EasyCorp\Bundle\EasyAdminBundle\Config\MenuItem::linkToRoute()
- *
- * @author Javier Eguiluz <javier.eguiluz@gmail.com>
- */
+
 final class RouteMenuItem implements MenuItemInterface
 {
     use MenuItemTrait;
