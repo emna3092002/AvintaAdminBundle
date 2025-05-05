@@ -12,11 +12,7 @@ use Symfony\Component\Console\Style\SymfonyStyle;
 use Symfony\Component\Filesystem\Filesystem;
 use function Symfony\Component\String\u;
 
-/**
- * Generates the PHP class needed to define a CRUD controller.
- *
- * @author Javier Eguiluz <javier.eguiluz@gmail.com>
- */
+
 #[AsCommand(
     name: 'make:admin:crud',
     description: 'Creates a new EasyAdmin CRUD controller class',
