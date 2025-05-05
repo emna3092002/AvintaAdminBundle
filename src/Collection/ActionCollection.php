@@ -5,9 +5,7 @@ namespace EasyCorp\Bundle\EasyAdminBundle\Collection;
 use EasyCorp\Bundle\EasyAdminBundle\Contracts\Collection\CollectionInterface;
 use EasyCorp\Bundle\EasyAdminBundle\Dto\ActionDto;
 
-/**
- * @author Javier Eguiluz <javier.eguiluz@gmail.com>
- */
+
 final class ActionCollection implements CollectionInterface
 {
     /**
