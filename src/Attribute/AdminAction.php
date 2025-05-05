@@ -2,9 +2,6 @@
 
 namespace EasyCorp\Bundle\EasyAdminBundle\Attribute;
 
-/**
- * @author Javier Eguiluz <javier.eguiluz@gmail.com>
- */
 #[\Attribute(\Attribute::TARGET_METHOD)]
 class AdminAction
 {
